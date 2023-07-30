@@ -13,7 +13,7 @@ np.zeros((sz[0], sz[1], 4), dtype="uint8")
 black = cliparr[0, 0, :]
 delta = np.zeros((sz[0], sz[1], 4), dtype="uint8")
 dims = [0, 0, sz[0], sz[1]]  # maxxy minxy
-thresh = 50.0
+thresh = 10.0
 for index, _ in np.ndenumerate(cliparr[:, :, 0]):
     col = cliparr[index]
     # print(col)
