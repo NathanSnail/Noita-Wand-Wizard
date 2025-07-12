@@ -59,7 +59,7 @@ while not stop:
 imarr = np.asarray(im2)
 
 
-path = "/home/nathan/.local/share/Steam/steamapps/compatdata/881100/pfx/drive_c/users/steamuser/AppData/LocalLow/Nolla_Games_Noita/data"
+path = os.path.expanduser("~/.local/share/Steam/steamapps/compatdata/881100/pfx/drive_c/users/steamuser/AppData/LocalLow/Nolla_Games_Noita/data")
 exts = "/items_gfx/wands"
 extw = "/scripts/gun/procedural/wands.lua"
 image_db = []
